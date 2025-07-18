@@ -132,7 +132,7 @@ p{
 .develop-info ,.global-info{
     width: 60%; 
 }
-
+/* Global section*/
 .global{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -146,4 +146,27 @@ p{
 .global img ,.develop img{
     width: 50%;
     margin-right: 0%;
+}
+
+/*Build section*/
+.build{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.corona{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.corona img{
+    width: 30%;
+}
+.corona-info{
+    width: 40%;
+}
+.corona-info h3{
+    font-size: 1.7rem;
+    font-weight: 600;
 }
