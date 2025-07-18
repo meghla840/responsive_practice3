@@ -50,7 +50,7 @@ header{
     color: #333333;
     border-left: 1.5px solid red;
 }
-.focused-info h1 span{
+ span{
   color: #FFAD5A;  
 }
 .first-para{
@@ -65,4 +65,77 @@ header{
 }
 .focused img{
     width: 90%;
+}
+
+/*Main section */
+/*mission section*/
+.mission{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission-contain{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 70%;
+    
+}
+.mission-contain div{
+    
+    border-radius: 6px;
+    border: none;
+    padding: 12px;
+
+}
+.m1{
+background-color: rgba(79, 157, 166, 0.1);
+}
+.m2{
+    background-color: rgba(255, 89, 89, 0.1);
+}
+.m3{
+    background-color: rgba(255, 244, 214, 1);
+}
+.mission-contain img{
+    width: 40%;
+}
+.mission h3{
+    font-size: 1rem;
+    font-weight: 400;
+}
+p{
+    font-size: .8rem;
+    font-weight: 300;
+}
+
+/*develop section*/
+.develop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 19px 150px;
+    padding: 0%;
+}
+.develop img{
+    width: 50%;
+    margin-right: 0%;
+   
+}
+.develop h3{
+    color: #333333;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.develop-info{
+    width: 60%;
+
+    
+}
+.imgs{
+    background-image: url(../images/shapes/shape-1.png);
+    background-position: top left;
+
 }
