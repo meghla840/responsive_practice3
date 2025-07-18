@@ -200,3 +200,92 @@ p{
  footer p{
     color: rgba(217, 219, 225, 1);
  }
+
+ /*small device*/
+ @media screen and (max-width: 768px) {
+
+    header{
+        gap: 0px;
+    }
+    .focused{
+        flex-direction: column;
+    }
+    .focused img{
+        width: 100%;
+        margin: 0%;
+    }
+    .focused-info{
+    width: 100%;
+    margin: 0%;
+}
+.mission-contain{
+    grid-template-columns: repeat(1, 1fr); 
+    margin: 0px auto; 
+}
+.develop {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 9px;
+    margin:19px auto;
+}
+.develop img ,.develop-info ,.global-info, .global img{
+    width: 90%;
+}
+.global{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 9px;
+    margin:19px auto;
+}
+
+.corona{
+   flex-direction: column;
+}
+.corona img{
+    width: 90%;
+}
+.corona-info{
+    width: 90%;
+    margin-bottom: 15px;
+}
+ }
+
+ /*medium device */
+  @media screen and (min-width:576px) and (max-width: 991px) {
+
+    header{
+        gap: 0px;
+    }
+    .focused{
+        
+    }
+    .focused img{
+        width: 70%;
+        margin: 0%;
+    }
+    .focused-info{
+    width: 100%;
+    margin: 0%;
+}
+.mission-contain{
+    grid-template-columns: repeat(1, 1fr); 
+    margin: 0px auto; 
+}
+.develop {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 9px;
+    margin:19px auto;
+}
+.develop img ,.develop-info ,.global-info, .global img{
+    width: 90%;
+}
+.global{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 9px;
+    margin:19px auto;
+}
+
+
+ }
