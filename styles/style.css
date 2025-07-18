@@ -1,0 +1,68 @@
+/* shared styles*/
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+.yeseva-one-regular {
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.btn-primary{
+    background-color: #FF5959;
+    color: white;
+    font-size: .9rem;
+    font-weight: 500;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/*header*/
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.focused{
+    display: flex;
+    justify-content: space-between;
+    gap: 250px;
+    align-items: center;
+    background-color: antiquewhite;
+   padding: 50px;
+   margin: 5px auto;
+   width: 100%;
+}
+.focused-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.focused-info h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #333333;
+    border-left: 1.5px solid red;
+}
+.focused-info h1 span{
+  color: #FFAD5A;  
+}
+.first-para{
+    font-size: .8rem;
+    font-weight: 400;
+    color: #3E3E3E;
+}
+.second-para{
+    font-size: .6rem;
+    font-weight: 300;
+    color: #434343;
+}
+.focused img{
+    width: 90%;
+}
